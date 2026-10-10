@@ -1,3 +1,4 @@
+
 select * from customer
 
 
@@ -56,7 +57,7 @@ group by 1   --loyal customers are more than retutning and it is more than new
 
 with top_product_category as(
 select category,item_purchased,
-dense_rank()over(partition by category order by sum(purchase_amount)) as ranking from customer
+dense_rank()over(partition by category order by sum(purchase_amount) desc) as ranking from customer
 group by 1,2)
 select * from  top_product_category
 
