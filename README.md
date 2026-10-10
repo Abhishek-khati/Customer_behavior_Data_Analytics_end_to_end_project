@@ -1,10 +1,8 @@
 # Customer Shopping Behavior Analysis
 
-
 <p align="center">
-  <img src="Screenshot 2026-10-10 141521.png"" alt="Customer Shopping Behavior Analysis" width="100%">
+  <img src="Screenshot 2026-10-10 141521.png" alt="Customer Shopping Behavior Analysis" width="100%">
 </p>
-
 
 An end-to-end data analytics project that transforms raw customer shopping data into actionable business insights using **Python, PostgreSQL, SQLAlchemy, and Power BI**.
 
@@ -98,15 +96,21 @@ Add screenshots from your notebook to the `images/` folder and use the paths bel
 
 **Initial data exploration**
 
-![Initial Data Exploration](images/python-data-exploration.png)
+<p align="center">
+  <img src="images/python-data-exploration.png" alt="Initial Data Exploration" width="100%">
+</p>
 
 **Data cleaning and missing values**
 
-![Data Cleaning and Missing Values](images/python-data-cleaning.png)
+<p align="center">
+  <img src="images/python-data-cleaning.png" alt="Data Cleaning and Missing Values" width="100%">
+</p>
 
 **Feature engineering**
 
-![Feature Engineering](images/python-feature-engineering.png)
+<p align="center">
+  <img src="images/python-feature-engineering.png" alt="Feature Engineering" width="100%">
+</p>
 
 ## PostgreSQL Business Analysis
 
@@ -129,15 +133,21 @@ PostgreSQL was used to answer ten business questions about customer spending and
 
 **Revenue analysis**
 
-![PostgreSQL Revenue Analysis](images/sql-revenue-analysis.png)
+<p align="center">
+  <img src="images/sql-revenue-analysis.png" alt="PostgreSQL Revenue Analysis" width="100%">
+</p>
 
 **Window functions**
 
-![PostgreSQL Window Functions](images/sql-window-functions.png)
+<p align="center">
+  <img src="images/sql-window-functions.png" alt="PostgreSQL Window Functions" width="100%">
+</p>
 
 **Customer segmentation**
 
-![PostgreSQL Customer Segmentation](images/sql-customer-segmentation.png)
+<p align="center">
+  <img src="images/sql-customer-segmentation.png" alt="PostgreSQL Customer Segmentation" width="100%">
+</p>
 
 ## Key Findings
 
@@ -163,19 +173,27 @@ Add your actual dashboard screenshots to the repository's `images/` folder. The 
 
 ### Dashboard Overview
 
-![Customer Shopping Behavior Dashboard Overview](images/dashboard-overview.png)
+<p align="center">
+  <img src="images/dashboard-overview.png" alt="Customer Shopping Behavior Dashboard Overview" width="100%">
+</p>
 
 ### Revenue Analysis
 
-![Revenue Analysis](images/revenue-analysis.png)
+<p align="center">
+  <img src="images/revenue-analysis.png" alt="Revenue Analysis" width="100%">
+</p>
 
 ### Customer Segmentation
 
-![Customer Segmentation](images/customer-segmentation.png)
+<p align="center">
+  <img src="images/customer-segmentation.png" alt="Customer Segmentation" width="100%">
+</p>
 
 ### Product and Discount Analysis
 
-![Product and Discount Analysis](images/product-discount-analysis.png)
+<p align="center">
+  <img src="images/product-discount-analysis.png" alt="Product and Discount Analysis" width="100%">
+</p>
 
 ## Business Recommendations
 
