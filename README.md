@@ -97,21 +97,24 @@ Add screenshots from your notebook to the `images/` folder and use the paths bel
 **Initial data exploration**
 
 <p align="center">
-  <img src="images/python-data-exploration.png" alt="Initial Data Exploration" width="100%">
+  <img src="Screenshot 2026-10-10 142619.png" alt="Initial Data Exploration" width="100%">
 </p>
 
 **Data cleaning and missing values**
 
 <p align="center">
-  <img src="images/python-data-cleaning.png" alt="Data Cleaning and Missing Values" width="100%">
+  <img src="Screenshot 2026-10-10 142641.png" alt="Data Cleaning and Missing Values" width="100%">
 </p>
 
 **Feature engineering**
 
 <p align="center">
-  <img src="images/python-feature-engineering.png" alt="Feature Engineering" width="100%">
+  <img src="Screenshot 2026-10-10 142704.png"alt="Feature Engineering" width="100%">
 </p>
 
+<p align="center">
+  <img src="Screenshot 2026-10-10 142719.png"alt="Feature Engineering" width="100%">
+</p>
 ## PostgreSQL Business Analysis
 
 PostgreSQL was used to answer ten business questions about customer spending and shopping behavior.
@@ -134,19 +137,19 @@ PostgreSQL was used to answer ten business questions about customer spending and
 **Revenue analysis**
 
 <p align="center">
-  <img src="images/sql-revenue-analysis.png" alt="PostgreSQL Revenue Analysis" width="100%">
+  <img src="Screenshot 2026-10-10 142742.png" alt="PostgreSQL Revenue Analysis" width="100%">
 </p>
 
 **Window functions**
 
 <p align="center">
-  <img src="images/sql-window-functions.png" alt="PostgreSQL Window Functions" width="100%">
+  <img src="Screenshot 2026-10-10 142749.png" alt="PostgreSQL Window Functions" width="100%">
 </p>
 
 **Customer segmentation**
 
 <p align="center">
-  <img src="images/sql-customer-segmentation.png" alt="PostgreSQL Customer Segmentation" width="100%">
+  <img src="Screenshots\Screenshot 2026-10-10 142803.png" alt="PostgreSQL Customer Segmentation" width="100%">
 </p>
 
 ## Key Findings
@@ -174,7 +177,7 @@ Add your actual dashboard screenshots to the repository's `images/` folder. The 
 ### Dashboard Overview
 
 <p align="center">
-  <img src="images/dashboard-overview.png" alt="Customer Shopping Behavior Dashboard Overview" width="100%">
+  <img src="Screenshot 2026-10-10 142523.png" alt="Customer Shopping Behavior Dashboard Overview" width="100%">
 </p>
 
 ### Revenue Analysis
