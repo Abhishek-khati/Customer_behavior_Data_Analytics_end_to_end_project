@@ -5,11 +5,11 @@ select * from customer
 
 select gender ,sum(purchase_amount) as revenue
 from customer
-group by 1
+group by 1 --males produces high revenue
 
 --Q2. Which customers used a discount but still spent more than the average purchase amount? 
 select customer_id, purchase_amount  from customer
-where discount_applied='Yes' and purchase_amount >=(select  AVG(purchase_amount) from customer )
+where discount_applied='Yes' and purchase_amount >=(select  AVG(purchase_amount) from customer ) --827 customers
 
 
 -- Q3. Which are the top 5 products with the highest average review rating?
@@ -17,13 +17,13 @@ where discount_applied='Yes' and purchase_amount >=(select  AVG(purchase_amount)
 select item_purchased,ROUND(AVG(review_rating::numeric),2)as product_rating from customer
 group by 1
 order by 2 desc
-limit 5
+limit 5 --gloves,sandals,boots,hat,skirt
 
 
 --Q4. Compare the average Purchase Amounts between Standard and Express Shipping. 
 select shipping_type ,ROUND(AVG(purchase_amount),2) from customer
 where shipping_type  in ('Standard','Express')
-group by 1 
+group by 1  --express shipping has high average
 
 --Q5. Do subscribed customers spend more? Compare average spend and total revenue 
 --between subscribers and non-subscribers.
@@ -36,7 +36,7 @@ select item_purchased ,round(sum(case when discount_applied='Yes' then 1 else 0 
 from customer 
 group by 1
 order by 2 desc
-limit 5
+limit   ---hat ,sneakers,coat,sweater,pants
 
 --Q7. Segment customers into New, Returning, and Loyal based on their total 
 -- number of previous purchases, and show the count of each segment. 
@@ -51,7 +51,7 @@ from customer
 )
 
 select customer_segment,count(customer_segment) as no_of_customers from customer_type
-group by 1
+group by 1   --loyal customers are more than retutning and it is more than new
 --Q8. What are the top 3 most purchased products within each category? 
 
 with top_product_category as(
@@ -64,9 +64,9 @@ where ranking<4
 --Q9. Are customers who are repeat buyers (more than 5 previous purchases) also likely to subscribe?
 select subscription_status ,count(customer_id) as repeat_buyers from customer
 where previous_purchases>5
-group by 1
+group by 1 --no
 
 --Q10. What is the revenue contribution of each age group? 
 select age_group , sum(purchase_amount) from customer
 group by 1
-order by 2 desc
+order by 2 desc  --young adult
