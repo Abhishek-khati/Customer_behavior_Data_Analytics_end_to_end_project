@@ -92,7 +92,7 @@ Python was used to prepare the dataset for analysis.
 
 ### Python Screenshots
 
-Add screenshots from your notebook to the `images/` folder and use the paths below.
+
 
 **Initial data exploration**
 
@@ -210,108 +210,6 @@ Based on the patterns identified in the analysis, the following actions could be
 
 These are recommendations for further testing, not claims that the strategies have already produced measurable improvements.
 
-## Repository Structure
-
-The following is a suggested structure. Adjust file and folder names to match your actual GitHub repository.
-
-```text
-customer-shopping-behavior-analysis/
-├── README.md
-├── data/
-│   └── customer_shopping_behavior.csv
-├── notebooks/
-│   └── customer_shopping_behavior.ipynb
-├── sql/
-│   └── customer_analysis.sql
-├── powerbi/
-│   └── customer_shopping_behavior.pbix
-└── images/
-    ├── dashboard-overview.png
-    ├── revenue-analysis.png
-    ├── customer-segmentation.png
-    ├── product-discount-analysis.png
-    ├── python-data-exploration.png
-    ├── python-data-cleaning.png
-    ├── python-feature-engineering.png
-    ├── sql-revenue-analysis.png
-    ├── sql-window-functions.png
-    └── sql-customer-segmentation.png
-```
-
-**Screenshot tip:** Create an `images/` folder in the repository and save your screenshots using the exact filenames shown above. GitHub will render the images when the paths and filenames match. Do not commit credentials or sensitive customer data.
-
-## Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone <your-github-repository-url>
-cd customer-shopping-behavior-analysis
-```
-
-Replace `<your-github-repository-url>` with your repository's actual URL.
-
-### 2. Set up Python
-
-Create and activate a virtual environment if desired, then install the packages used by your notebook:
-
-```bash
-python -m venv .venv
-```
-
-On Windows PowerShell:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-Install the required packages:
-
-```bash
-pip install pandas numpy sqlalchemy "psycopg2-binary" jupyter
-```
-
-Additional packages may be needed depending on the imports in your notebook.
-
-### 3. Configure PostgreSQL
-
-- Install and start PostgreSQL.
-- Create a database for the project.
-- Update the database connection configuration used by the Python script.
-- Confirm that the PostgreSQL server is running and that the selected database and user exist.
-
-Use environment variables for connection details rather than hard-coding passwords. For example, create a local `.env` file (keep it out of Git):
-
-```text
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=your_database_name
-DB_USER=your_username
-DB_PASSWORD=your_password
-```
-
-Load these values through your Python configuration. If you use a `.env` file, install and configure `python-dotenv` as needed. Never commit `.env` or real credentials.
-
-### 4. Run the Python notebook
-
-Start Jupyter:
-
-```bash
-jupyter notebook
-```
-
-Open the project notebook, update the dataset path and database configuration, and run the cells in order.
-
-### 5. Execute the SQL analysis
-
-Open your PostgreSQL client, such as pgAdmin or `psql`, connect to the project database, and execute the SQL analysis script after the cleaned data has been loaded.
-
-Update table and column names if they differ from those in your database.
-
-### 6. Open the Power BI dashboard
-
-Open the project's `.pbix` file in Power BI Desktop. If the file uses a local data source, update its connection settings to match your environment.
-
 ## Skills Demonstrated
 
 - Data cleaning and preprocessing
@@ -332,6 +230,7 @@ Open the project's `.pbix` file in Power BI Desktop. If the file uses a local da
     <strong>📊 View Project Presentation</strong>
   </a>
 </p>
+
 
 ## Conclusion
 
