@@ -1,5 +1,11 @@
 # Customer Shopping Behavior Analysis
 
+
+<p align="center">
+  <img src="Screenshot 2026-10-10 141521.png"" alt="Customer Shopping Behavior Analysis" width="100%">
+</p>
+
+
 An end-to-end data analytics project that transforms raw customer shopping data into actionable business insights using **Python, PostgreSQL, SQLAlchemy, and Power BI**.
 
 > **Project goal:** Understand customer spending patterns, product preferences, discount usage, customer segments, subscription behavior, shipping preferences, and revenue contribution across age groups.
