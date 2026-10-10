@@ -325,6 +325,14 @@ Open the project's `.pbix` file in Power BI Desktop. If the file uses a local da
 - Business insight generation
 - Technical documentation and GitHub project presentation
 
+### Project Presentation
+
+<p align="center">
+  <a href="https://customer-shopping-behavi-0l1is5n.gamma.site/" target="_blank">
+    <strong>📊 View Project Presentation</strong>
+  </a>
+</p>
+
 ## Conclusion
 
 This project demonstrates an end-to-end data analytics workflow, from raw data preparation to SQL-based business analysis and Power BI reporting. It applies Python, PostgreSQL, and data visualization to investigate customer shopping behavior and translate analytical results into potential business actions.
